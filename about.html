@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="with=device-width" ,intital-scale=1.0>
+  <title>Nvelope Design Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6bac12f86f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="subheader aboutsubheader">
+
+    <nav>
+      <a href="index.html"><img src="images/nvelop.png" alt=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT_US</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="career.html">CAREER</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>ABOUT US</h1>
+
+  </section>
+
+  <!--about us content-->
+  <section class="aboutus">
+    <div class="row">
+      <div class="aboutcol">
+        <h1>COMPANY</h1>
+        <p>pproach: Store the values of n and k in strings.
+
+          Initialise the carry variable and count variable to 0.
+          Now, check from the last index of the strings till both the strings come to an end(one string may be smaller than the other).
+          Add both the values(take care of ascii value) with carry in every iteration and check if that sum is greater than 10 or not.
+          If it is greater than 10 then simply increment the value of count by 1 and make carry equal to 1, else make carry equal to 0.
+          At last, print your answer which is count.</p>
+          <a href="#" class="hero-btn red-btn">Explore now</a>
+      </div>
+      <div class="aboutcol">
+        <img src="images/nvelop.png" alt="">
+      </div>
+
+      <div class="aboutcol">
+        <h1>MD & CEO</h1>
+        <p>
+          Now, check from the last index of the strings till both the strings come to an end(one string may be smaller than the other).
+          Add both the values(take care of ascii value) with carry in every iteration and check if that sum is greater than 10 or not.
+          If it is greater than 10 then simply increment the value of count by 1 and make carry equal to 1, else make carry equal to 0.
+          At last, print your answer which is count.
+        </p>
+
+      </div>
+      <div class="aboutcol">
+        <img src="images/vhangout.jpg" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!--footer-->
+
+  <section class="footer">
+    <p>Follow for more <strong>"Intresting Updates"</strong> on Social Media.</p>
+
+    <div class="icons">
+      <a href="https://www.facebook.com/nvelopedesignstudio"><i class="fab fa-facebook"></i></a>
+
+        <a href="https://twitter.com/nvelopdesign?s=20"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/nvelopedesignstudio/"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/channel/UCNiwzJkXNL6kNJ8vWQigHKQ"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>made with <i class="far fa-heart"></i> on ENDEVELOP DESIGN STUDIO</p>
+  </section>
+
+
+  <!-- js code for menu -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>
